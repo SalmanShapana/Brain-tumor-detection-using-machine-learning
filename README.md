@@ -10,20 +10,25 @@ The dataset used in this project is the Brain Tumor MRI Dataset from Kaggle. The
 
 1. Clone this repository to your local machine:
 
-<img width="642" alt="Screenshot 2023-03-10 at 1 14 30 AM" src="https://user-images.githubusercontent.com/94341686/224182356-976471c4-0838-4fa8-be5f-1a5afa72f565.png">
+```
+git clone https://github.com/your-username/brain-tumor-detection.git
+```
 
 2. Install the necessary libraries by running the following command in the terminal:
 
-<img width="639" alt="Screenshot 2023-03-10 at 1 14 44 AM" src="https://user-images.githubusercontent.com/94341686/224182409-a6b57377-b9bd-4fdb-991a-0b88ddf99106.png">
-
+```
+pip install -r requirements.txt
+```
 3. Run the train.py file to train the machine learning model:
 
-<img width="638" alt="Screenshot 2023-03-10 at 1 14 55 AM" src="https://user-images.githubusercontent.com/94341686/224182460-1dd3e316-a829-4496-9877-d36f7ef7248b.png">
-
+```
+python train.py
+```
 4. After training, run the test.py file to test the machine learning model:
 
-<img width="643" alt="Screenshot 2023-03-10 at 1 15 08 AM" src="https://user-images.githubusercontent.com/94341686/224182495-4fb2f8fa-2833-4a0a-a6a6-efed7cf96cfc.png">
-
+```
+python test.py
+```
 5. The program will output the accuracy and other performance metrics of the machine learning model.
 
 ## Model
